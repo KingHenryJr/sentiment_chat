@@ -42,7 +42,7 @@ import Layout from '../components/Layout';
                       {
                         user
                           ? (<span>
-                              <span style={{color: '#999'}}>Hello!</span> {user}
+                              <span style={{color: '#999'}}>Hello</span> {user}!
                             </span>)
                           : `What is your name?`
                       }
